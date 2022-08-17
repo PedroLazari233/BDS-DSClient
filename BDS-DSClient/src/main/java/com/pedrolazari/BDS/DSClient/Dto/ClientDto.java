@@ -2,11 +2,13 @@ package com.pedrolazari.BDS.DSClient.Dto;
 
 import com.pedrolazari.BDS.DSClient.entities.Client;
 import lombok.Data;
+import lombok.NoArgsConstructor;
 
 import javax.persistence.Column;
 import java.time.Instant;
 
 @Data
+@NoArgsConstructor
 public class ClientDto {
     private Long id;
     private String name;
